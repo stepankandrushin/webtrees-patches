@@ -9,7 +9,7 @@ webtrees-docker/app_patches/patch-translations.sh - fix errors in translations
 # change dirctory to you webrees docker
 cd webtrees-docker
 # copy contents of this repository
-git clone https://github.com/bsnjoy/webtrees-patches.git webtrees-docker
+git clone https://github.com/stepankandrushin/webtrees-patches.git webtrees-docker
 ```
 
 edit docker-compose.yml to include patches directory in volumes and add command to execute  
